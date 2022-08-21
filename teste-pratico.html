@@ -1,0 +1,19 @@
+<html>
+    <script>
+            //verificar o numero não pode ser inferior a 1
+            //verificar se o numero é 2 ou 3
+            //o numero 5 é o proximo numero na sequencia e depois - 6
+            //verificar se o numero passado é divisivel por 2 e 3
+            // retornar verdadeiro
+
+            function verificaNumeroPrimo(numero) {
+                var i;
+                for(i = 2; i < numero; i++) {
+                    if(numero % i ==0) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+    </script>
+</html>
